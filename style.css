@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    font-size: 20px;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+a{
+    text-decoration:none ;
+}
+fieldset{
+    width: 20%;
+}
+button{
+    background-color: burlywood;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+footer{
+    background-color: aquamarine;
+    text-align: center;
+
+}
+.card{
+    display: flex;
+    width: 100% ;
+    align-items: center;
+}
+.projcard1{
+    background-color: pink;
+    float: left;
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.projcard2{
+    background-color: lightblue;
+    float: right;
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
